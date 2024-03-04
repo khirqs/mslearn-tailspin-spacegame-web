@@ -20,10 +20,9 @@ steps:
       verbose: false
 
   - task: Npm@1
-    displayName: 'Install Gulp CLI Globally'
+    displayName: 'npm install'
     inputs:
-      command: custom
-      customCommand: 'install gulp-cli'
+      command: install
       workingDir: '$(Build.SourcesDirectory)'
       verbose: false
 
