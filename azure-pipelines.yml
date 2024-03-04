@@ -1,5 +1,5 @@
 trigger:
-- manin
+- main
 
 pool:
   vmImage: ubuntu-latest
